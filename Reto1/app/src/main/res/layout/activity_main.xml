@@ -148,7 +148,7 @@
             android:textSize="14sp" />
 
         <TextView
-            android:id="@+id/tvMode"
+            android:id="@+id/tvModalidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
@@ -156,7 +156,7 @@
             android:textSize="14sp" />
 
         <RadioGroup
-            android:id="@+id/rgMode"
+            android:id="@+id/rgModalidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checkedButton="@id/rbPresencial"

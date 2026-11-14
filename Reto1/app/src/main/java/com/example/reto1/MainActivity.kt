@@ -3,6 +3,8 @@ package com.example.reto1
 import android.os.Bundle
 import android.widget.Button
 import android.widget.CheckBox
+import android.widget.RadioButton
+import android.widget.RadioGroup
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -42,6 +44,24 @@ class MainActivity : AppCompatActivity() {
                 tvResultado.text = "Tecnologías seleccionadas: ${seleccionadas.joinToString(", ")}"
             } else {
                 tvResultado.text = "No has seleccionado ninguna tecnología"
+            }
+        }
+
+        val rgModalidad = findViewById<RadioGroup>(R.id.rgModalidad)
+        val btnGuardar2 = findViewById<Button>(R.id.btnGuardar2)
+
+        btnGuardar2.setOnClickListener {
+
+            val idSeleccionado = rgModalidad.checkedRadioButtonId
+
+            if (idSeleccionado != -1) {
+                val radioSeleccionado =
+                    findViewById<RadioButton>(idSeleccionado)
+
+                tvResultado.text =
+                    "Modalidad seleccionada: ${radioSeleccionado.text}"
+            } else {
+                tvResultado.text = "No has seleccionado ninguna modalidad"
             }
         }
 
