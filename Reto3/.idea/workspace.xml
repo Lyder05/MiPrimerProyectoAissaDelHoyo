@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ceeda868-b1c4-4f38-ab76-a4abc46fd202" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Reto2/src/main/kotlin/Reto2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto2/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto2/.idea/Reto2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto2/.idea/caches/deviceStreaming.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Reto3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Reto3.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Lyder05&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Lyder05/Desarrollo-de-Interfaces.git&quot;,
+    &quot;accountId&quot;: &quot;d405b97e-2eff-4adb-ac9d-f0017ac03248&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000001064753612" />
+      <entry key="S10" value="1.0007431891721867" />
+      <entry key="S30" value="1.4172058686729898" />
+      <entry key="S60" value="3.19911683874354" />
+      <entry key="M2" value="6.225734116805039" />
+      <entry key="M5" value="11.522976242652318" />
+      <entry key="M10" value="17.247001906680087" />
+      <entry key="M15" value="20.823369045502115" />
+      <entry key="M30" value="26.067093821685138" />
+      <entry key="H1" value="29.610014996678725" />
+      <entry key="H2" value="31.68541105396098" />
+      <entry key="H4" value="32.81087626120792" />
+      <entry key="D1" value="33.797216879852975" />
+      <entry key="W1" value="33.97091606811801" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.4387568846713868E-72" />
+      <entry key="S2" value="1.0952086209690962E-18" />
+      <entry key="S5" value="6.543328762141242E-8" />
+      <entry key="S10" value="2.5579931122153636E-4" />
+      <entry key="S30" value="0.0634794463516849" />
+      <entry key="S60" value="0.25199461534645334" />
+      <entry key="M2" value="0.5129140168727063" />
+      <entry key="M5" value="1.1147091331570043" />
+      <entry key="M10" value="2.050849189544595" />
+      <entry key="M15" value="2.6799731035183845" />
+      <entry key="M30" value="3.6109015286156545" />
+      <entry key="H1" value="4.235591675827796" />
+      <entry key="H2" value="4.598448416341953" />
+      <entry key="H4" value="4.794129424265007" />
+      <entry key="D1" value="4.964957594703023" />
+      <entry key="W1" value="4.994975740439006" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.6241652744508059" />
+      <entry key="MS500" value="0.9100388240808991" />
+      <entry key="S2" value="0.9767085289622274" />
+      <entry key="S5" value="0.990617637320835" />
+      <entry key="S10" value="0.9962188742098739" />
+      <entry key="S30" value="1.4641285211181938" />
+      <entry key="S60" value="3.4087362510749872" />
+      <entry key="M2" value="6.68772588714787" />
+      <entry key="M5" value="12.59688613660305" />
+      <entry key="M10" value="19.266748117748918" />
+      <entry key="M15" value="23.47829870179787" />
+      <entry key="M30" value="29.662418465942203" />
+      <entry key="H1" value="33.83681804826842" />
+      <entry key="H2" value="36.27917769738518" />
+      <entry key="H4" value="37.60258765794361" />
+      <entry key="D1" value="38.76176027719638" />
+      <entry key="W1" value="38.96583235693476" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3M3rdvdqfaUij7mSqJ5GvXZfEj6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CidrDebugProfileConversion": "true",
+    "Gradle.Reto3 [:com.example.reto3.MainKt.main()].executor": "Run",
+    "Gradle.Reto3 [:com.example.reto3.Reto3Kt.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ceeda868-b1c4-4f38-ab76-a4abc46fd202" name="Changes" comment="" />
+      <created>1794590192711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794590192711</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
