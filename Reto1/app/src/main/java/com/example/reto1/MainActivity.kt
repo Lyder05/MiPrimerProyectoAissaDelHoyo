@@ -5,6 +5,7 @@ import android.widget.Button
 import android.widget.CheckBox
 import android.widget.RadioButton
 import android.widget.RadioGroup
+import android.widget.SeekBar
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -64,6 +65,26 @@ class MainActivity : AppCompatActivity() {
                 tvResultado.text = "No has seleccionado ninguna modalidad"
             }
         }
+
+        val seekBar = findViewById<SeekBar>(R.id.skNivel)
+        val tvNivel = findViewById<TextView>(R.id.tvNivel)
+
+        seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
+
+            override fun onProgressChanged(
+                seekBar: SeekBar?,
+                progress: Int,
+                fromUser: Boolean
+            ) {
+                tvNivel.text = "Nivel seleccionado: $progress"
+            }
+
+            override fun onStartTrackingTouch(seekBar: SeekBar?) {
+            }
+
+            override fun onStopTrackingTouch(seekBar: SeekBar?) {
+            }
+        })
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.svMain)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
