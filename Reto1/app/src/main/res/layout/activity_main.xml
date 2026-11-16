@@ -5,26 +5,28 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true"
-    android:background="#FFFBFF">
+    android:background="#FFFBFF"
+    android:fillViewport="true">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="12dp">
 
         <TextView
+            android:id="@+id/tvTitulo1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="22dp"
             android:text="Ejemplo de componentes Android"
             android:textSize="22sp"
             android:textStyle="bold"
-            android:textColor="#333333"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="22dp"/>
+            android:textColor="#333333" />
 
         <TextView
+            android:id="@+id/tvTitulo2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Componentes para mostrar información"
@@ -33,6 +35,7 @@
             android:textColor="#333333"/>
 
         <TextView
+            android:id="@+id/tvDescripcion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Este texto se muestra mediante un TextView."
@@ -41,20 +44,21 @@
             android:textColor="#555555"/>
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/ivAndroidIcon"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
             android:layout_marginBottom="12dp"
-            android:src="@android:drawable/sym_def_app_icon"
-            android:contentDescription="Logo Android"/>
+            android:contentDescription="Logo Android"
+            android:src="@mipmap/ic_launcher_round" />
 
         <TextView
+            android:id="@+id/tvProgress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Progreso: 50%"
-            android:textSize="13sp"/>
+            android:textSize="13sp" />
 
         <ProgressBar
             android:id="@+id/progressBar"
@@ -63,24 +67,26 @@
             android:layout_height="wrap_content"
             android:max="100"
             android:progress="50"
-            android:progressTint="#6750A4"/>
+            android:progressTint="#6750A4" />
 
         <TextView
+            android:id="@+id/tvVideo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="6dp"
             android:text="VideoView"
             android:textStyle="bold"
-            android:textSize="15sp"
-            android:layout_marginTop="24dp"
-            android:layout_marginBottom="6dp"/>
+            android:textSize="15sp" />
 
         <VideoView
-            android:id="@+id/videoView"
+            android:id="@+id/vvVideo"
             android:layout_width="100dp"
             android:layout_height="180dp"
-            android:background="#000000"/>
+            android:background="#000000" />
 
         <TextView
+            android:id="@+id/tvWebView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="WebView"
@@ -90,12 +96,13 @@
             android:layout_marginBottom="8dp"/>
 
         <WebView
-            android:id="@+id/webView"
+            android:id="@+id/wvWeb"
             android:layout_width="match_parent"
             android:layout_height="260dp"
-            android:background="#FFFFFF"/>
+            android:background="#FFFFFF" />
 
         <TextView
+            android:id="@+id/tvEntrada"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Componentes de entrada e interacción"
@@ -111,9 +118,10 @@
             android:layout_height="wrap_content"
             android:hint="Introduce tu nombre"
             android:inputType="textPersonName"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
         <TextView
+            android:id="@+id/tvTechnologies"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Selecciona tecnologías:"
@@ -142,6 +150,7 @@
             android:textSize="14sp"/>
 
         <TextView
+            android:id="@+id/tvModalidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Selecciona una modalidad:"
@@ -152,8 +161,8 @@
             android:id="@+id/rgModalidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:checkedButton="@id/rbPresencial">
+            android:checkedButton="@id/rbPresencial"
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/rbPresencial"
@@ -207,7 +216,7 @@
             android:layout_marginTop="18dp"/>
 
         <SeekBar
-            android:id="@+id/seekBar"
+            android:id="@+id/skNivel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:max="100"
